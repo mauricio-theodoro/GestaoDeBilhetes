@@ -22,13 +22,13 @@ Este projeto é uma aplicação React para a gestão de bilhetes, com funcionali
 ```plaintext
 src/
 ├── components/
-│   ├── FormBilhetes.jsx    # Formulário para criar bilhetes
-│   ├── ListaBilhetes.jsx   # Tabela para exibir bilhetes
+│   ├── FormBilhetes.js    # Formulário para criar bilhetes
+│   ├── ListaBilhetes.js   # Tabela para exibir bilhetes
 ├── services/
 │   ├── api.js              # Comunicação com a API
 ├── styles/
 │   ├── App.css             # Estilo principal
 │   ├── FormBilhetes.css    # Estilo do formulário
 │   ├── ListaBilhetes.css   # Estilo da lista
-├── App.jsx                 # Componente principal
+├── App.js                 # Componente principal
 ├── index.js                # Ponto de entrada do React
