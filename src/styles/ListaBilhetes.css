@@ -1,0 +1,93 @@
+/* Estilização do container */
+div {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título da lista */
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilização da tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Estilo das células da tabela */
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+/* Cor de fundo das cabeçalhos da tabela */
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Estilo do botão Excluir */
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover no botão Excluir */
+button:hover {
+  background-color: #cc0000;
+}
+
+/* Estilo quando não há bilhetes */
+p {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+
+  button {
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  div {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+}

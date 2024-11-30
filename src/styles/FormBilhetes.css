@@ -1,0 +1,67 @@
+/* Estilização do Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização dos Inputs */
+input[type="number"],
+input[type="text"],
+input[type="datetime-local"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+/* Foco nos Inputs */
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="datetime-local"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Estilização do botão */
+button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilização da mensagem de erro */
+p {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  form {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
